@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	min-height: 100vh;
+	padding: 2rem;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+}
+main{
+	width: 100%;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	padding-block: 1rem;
+}
+header h3{
+	font-size: 2rem;
+	color: hsl(224, 21%, 14%);
+	font-weight: 700;
+}
+header>div:first-of-type{
+	display: flex;
+	align-items: center;
+}
+header>div:last-of-type p{
+	color: hsl(219, 14%, 63%);
+	font-size: 1.2rem;
+}
+header>div:first-of-type>div{
+background-color: hsl(219, 85%, 26%);
+color: white;
+font-weight: 600;
+padding: 5px  8px;
+border-radius: 2px;
+margin-left: 10px;
+}
+main>section{
+	display: flex;
+	width: 100%;
+	border-radius: 4px;
+	background-color: hsl(210, 60%, 98%);
+	border: 1px solid hsl(210, 60%, 98%);
+	margin-block: 10px;
+	padding: 5px;
+}
+.rizky div:last-of-type{
+	border: 1px solid hsl(219, 14%, 63%);
+	padding: 1rem 0.3rem;
+	margin-top: 12px;
+}
+img{
+	width: 50px;
+	height: 50px;
+}
+main>section>img{
+	margin-right: 10px;
+}
+.kimberly{
+	display: flex;
+	justify-content: space-between;
+}
+.kim{
+	justify-content: space-between;
+}
+.kim img{
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	body{
+		padding: 1rem;
+	}
+	img{
+		width: 30px;
+		height: 30px;
+	}
+	header h3{
+		font-size: 1.5rem;
+	}
+	header>div:first-of-type>div {
+		padding: 2px 6px;
+	}
+	header>div:last-of-type p {
+		font-size: 1rem;
+	}
+}
