@@ -44,7 +44,7 @@ main>section{
 	border-radius: 4px;
 	background-color: hsl(210, 60%, 98%);
 	border: 1px solid hsl(210, 60%, 98%);
-	margin-block: 10px;
+	margin-block: 20px;
 	padding: 5px;
 }
 .rizky div:last-of-type{
